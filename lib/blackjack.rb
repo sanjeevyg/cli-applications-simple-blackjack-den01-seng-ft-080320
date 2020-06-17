@@ -42,7 +42,7 @@ def hit?(initial_round)
   prompt_user
   input = get_user_input
   if input == "h"
-    initial_round = initial_round + deal_card
+    initial_round += deal_card
   elsif input == "s" 
     initial_round
   elsif (input != "s" && input != "h")
